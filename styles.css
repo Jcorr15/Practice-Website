@@ -1,0 +1,54 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-options {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 1.5rem 3rem;
+}
+
+.nav-options:hover {
+    background-color: #a71930;
+}
+
+#navbar {
+    background-color: #0b2265;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+body {
+    font-family: arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Unify Sans';
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 3em;
+}
+
+.home-text {
+    margin: 1rem 25% 1rem 25%;
+}
+
+#superbowl {
+    width: 50%;
+    height: 15rem;
+}
+
+.img-superbowl {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Unify Sans';
+    text-align: center;
+}
