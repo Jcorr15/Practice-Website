@@ -52,3 +52,78 @@ h2 {
     font-family: 'Unify Sans';
     text-align: center;
 }
+
+.schedule-list {
+    list-style-type: none;
+}
+
+.schedule-team-even {
+    text-decoration: none;
+    color: #a71930;
+}
+
+.schedule-team-odd {
+    text-decoration: none;
+    color: #0b2265;
+}
+
+#schedule {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#header-schedule {
+    margin-bottom: 0;
+}
+
+.schedule-li {
+    margin-top: 0.5rem;
+}
+
+#form-body {
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border: 5px solid #a71930;
+    background-color: #0b2265;
+    color: white;
+}
+
+.form-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form-field {
+    text-align: center;
+    margin: 1rem 3rem 1rem 3rem;
+}
+
+.submit {
+    background-color: #a71930;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.submit:hover {
+    background-color: black;
+}
+
+#players {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.draft-players {
+    width: 99%;
+    height: 15rem;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+}

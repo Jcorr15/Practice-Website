@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Favorite Players</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="navbar">
+            <ul class="nav">
+                <li><a class="nav-options" href="home.html">Home</a></li>
+                <li><a class="nav-options" href="draft.html">2022 Draft</a></li>
+                <li><a class="nav-options" href="favorites.html">Favorite Players</a></li>
+                <li><a class="nav-options" href="schedule.html">2022 Schedule</a></li>
+            </ul>
+        </div>
+
+        <div id="form-body">
+            <form method="post">
+                <fieldset class="form-content">
+                <legend>Submit Favorite Player</legend>
+
+                <div class="form-field">
+                    <label for="question">Do you watch the NFL?</label><br>
+                    <select id="question" type="checkbox" name="nfl">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <label for="favorite-team">Favorite team?</label><br>
+                    <input id="favorite-team" type="text" name="team">
+                </div>
+
+                <div class="form-field">
+                    <label for="favorite-player">Favorite player?</label><br>
+                    <input type="text" id="favorite-player" name="player">
+                </div>
+
+                <div class="form-field">
+                    <label for="reason">What makes him your favorite player?</label><br>
+                    <textarea id="reason" name="reasoning"></textarea>
+                </div>
+
+                <div class="form-field">
+                    <button class="submit" type="submit">Submit</button>
+                </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
